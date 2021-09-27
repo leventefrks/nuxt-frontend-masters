@@ -1,6 +1,7 @@
 // tailwind.config.js
 module.exports = {
   mode: 'jit',
+  darkMode: 'media',
   purge: {
     content: [
       `components/**/*.{vue,js}`,
@@ -12,7 +13,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      custom: ['Mullish', 'sans-serif'],
+      custom: ['Roboto', 'sans-serif'],
     },
   },
   variants: {},
