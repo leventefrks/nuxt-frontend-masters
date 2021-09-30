@@ -19,6 +19,8 @@
 </template>
 
 <script>
-const AppFooter = {}
+const AppFooter = {
+  name: 'AppFooter',
+}
 export default AppFooter
 </script>

@@ -5,3 +5,13 @@
 html {
   font-family: 'Roboto', sans-serif;
 }
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 300ms;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
